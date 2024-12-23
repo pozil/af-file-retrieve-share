@@ -1,0 +1,14 @@
+{
+  "unevaluatedProperties": false,
+  "properties": {
+    "contentDocumentId": {
+      "title": "contentDocumentId",
+      "description": "Document ID that holds the invoice.",
+      "lightning:type": "lightning__recordIdType",
+      "lightning:isPII": false,
+      "copilotAction:isDisplayable": true,
+      "copilotAction:isUsedByPlanner": true
+    }
+  },
+  "lightning:type": "lightning__objectType"
+}

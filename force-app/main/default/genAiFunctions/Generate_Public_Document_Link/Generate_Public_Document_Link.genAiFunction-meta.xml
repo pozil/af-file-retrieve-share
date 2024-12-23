@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description
+  >Generates a public link for the document with the provided ID. When displaying the output:
+- say &quot;Link expires on EXP_DATE&quot; where EXP_DATE is the expiry date in a user-friendly format
+- if a password was generated add &quot;and the password for the link is PASSWORD&quot; where PASSWORD is the generated password.
+- show the url as rich text.</description>
+    <invocationTarget>GeneratePublicDocumentLink</invocationTarget>
+    <invocationTargetType>apex</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <masterLabel>Generate Public Document Link</masterLabel>
+</GenAiFunction>

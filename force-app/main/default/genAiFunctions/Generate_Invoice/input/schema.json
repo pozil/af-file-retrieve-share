@@ -1,0 +1,14 @@
+{
+  "required": ["orderId"],
+  "unevaluatedProperties": false,
+  "properties": {
+    "orderId": {
+      "title": "orderId",
+      "description": "Order for which the invoice should be generated.",
+      "lightning:type": "lightning__textType",
+      "lightning:isPII": false,
+      "copilotAction:isUserInput": false
+    }
+  },
+  "lightning:type": "lightning__objectType"
+}

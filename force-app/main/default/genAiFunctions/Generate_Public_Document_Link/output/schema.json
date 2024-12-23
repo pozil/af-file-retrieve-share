@@ -1,0 +1,30 @@
+{
+  "unevaluatedProperties": false,
+  "properties": {
+    "expiryDate": {
+      "title": "expiryDate",
+      "description": "Date after which the public link will expire.",
+      "lightning:type": "lightning__dateTimeStringType",
+      "lightning:isPII": false,
+      "copilotAction:isDisplayable": false,
+      "copilotAction:isUsedByPlanner": true
+    },
+    "password": {
+      "title": "password",
+      "description": "Password required to access the link to the document.",
+      "lightning:type": "lightning__textType",
+      "lightning:isPII": false,
+      "copilotAction:isDisplayable": false,
+      "copilotAction:isUsedByPlanner": true
+    },
+    "url": {
+      "title": "url",
+      "description": "Public link to the document.",
+      "lightning:type": "lightning__richTextType",
+      "lightning:isPII": false,
+      "copilotAction:isDisplayable": true,
+      "copilotAction:isUsedByPlanner": true
+    }
+  },
+  "lightning:type": "lightning__objectType"
+}

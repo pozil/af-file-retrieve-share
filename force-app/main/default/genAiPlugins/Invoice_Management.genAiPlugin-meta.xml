@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GenAiPlugin
+  xmlns="http://soap.sforce.com/2006/04/metadata"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+    <description
+  >Your role is to help user manage invoices and the related files</description>
+    <developerName>Invoice_Management</developerName>
+    <genAiFunctions>
+        <functionName>Generate_Invoice</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Generate_Public_Document_Link</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__DraftOrReviseEmail</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>Do not show document IDs in the conversation.</description>
+        <developerName>instruction_donotshowd0</developerName>
+        <language xsi:nil="true" />
+        <masterLabel>instruction_donotshowd0</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Invoice Management</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope
+  >Your role is to help user manage invoices and the related files</scope>
+</GenAiPlugin>

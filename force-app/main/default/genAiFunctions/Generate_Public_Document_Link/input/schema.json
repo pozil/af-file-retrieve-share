@@ -1,0 +1,28 @@
+{
+  "required": ["contentDocumentId"],
+  "unevaluatedProperties": false,
+  "properties": {
+    "contentDocumentId": {
+      "title": "contentDocumentId",
+      "description": "Content Document ID.",
+      "lightning:type": "lightning__recordIdType",
+      "lightning:isPII": false,
+      "copilotAction:isUserInput": false
+    },
+    "expiryDate": {
+      "title": "expiryDate",
+      "description": "Optional link expiry date.",
+      "lightning:type": "lightning__dateTimeStringType",
+      "lightning:isPII": false,
+      "copilotAction:isUserInput": false
+    },
+    "isPasswordProtected": {
+      "title": "isPasswordProtected",
+      "description": "Generate a password for the link.",
+      "lightning:type": "lightning__booleanType",
+      "lightning:isPII": false,
+      "copilotAction:isUserInput": false
+    }
+  },
+  "lightning:type": "lightning__objectType"
+}

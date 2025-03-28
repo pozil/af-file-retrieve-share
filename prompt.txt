@@ -1,0 +1,1 @@
+Generate an invoice for the current order. Draft an email to the procurement manager in which you thank them for their order and share a public password-protected link to the invoice.

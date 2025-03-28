@@ -2,7 +2,7 @@
 
 This repo holds an example of how you can implement two custom Apex actions that let you retrieve an invoice PDF from a third party accounting system (or more generally, a file from any external system) and share it publicly.
 
-Read this blog post [link TBD] to learn more.
+Read [this blog post](https://developer.salesforce.com/blogs/2025/01/retrieve-and-share-files-with-agentforce) to learn more.
 
 ## Requirements
 
